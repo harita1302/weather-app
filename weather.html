@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, intial-scale=1.0'>
+	 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	 <title>Weather site</title>
+	 <link rel="stylesheet" href="weather.css">
+
+
+	</head>
+	<body>
+		<div class="container">
+		<div class="jumbotron">
+		<header>
+			<input type="text" placeholder='Search for a city...' autocomplete="off" class='searchbox' id='inputbox'>
+		</header>
+
+		<main>
+			<div class='location'>
+				<div class='city' id='city'></div>
+				<div class='date' id='date'></div>
+			</div>
+			<div class='current'>
+				<div class='temp' id='temp'></div>
+				<div class='weathertype' id='weathertype'></div>
+				<div class='img'></div>
+			</div>
+
+		</main>
+		</div>
+		</div>
+	<script src="weather.js"></script>
+</body>
+</html>

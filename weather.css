@@ -1,0 +1,72 @@
+
+body{
+	font-family: "Lucida Console", monospace;
+	background-image: url("rainbow.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+
+header{
+	display:flex;
+	padding: 100px 550px 100px 550px;
+}
+
+header input{
+	padding:20px 20px;
+	
+
+	outline:none;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 15px 50px;
+	border-style:ridge;
+	border-bottom: 5px solid #B4CFEC;
+	border-top: 5px solid #B4CFEC;
+	border-left:5px solid #B4CFEC;
+	border-right:5px solid #B4CFEC;
+	
+	color:#191970;
+  	font-size: 20px;
+  	font-weight: 300;
+  }
+header input:focus{
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+main{
+	padding:10px 550px 150px 600px;
+	text-align: center;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.city{
+	color:black;
+	font-size: 25px;
+   font-weight: 300;
+   margin-bottom: 5px;
+}
+
+.date{
+	color:black;
+	font-size:15px;
+}
+
+.temp{
+	color:black;
+	font-size:100px;
+	font-weight:900;
+	margin: 30px 0px;
+  	text-shadow: 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.weathertype{
+	color:black;
+	font-size:75px;
+	font-weight: 500;
+	margin-bottom: 15px;
+    text-shadow: 2px 10px rgba(0, 0, 0, 0.2);
+}
